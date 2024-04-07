@@ -14,7 +14,7 @@ HOTEL RESERVATION SYSTEM API
 •	API Endpoints
 
 -	GET /app/hotels/ : List all hotels
--	POST /api/hotels/ : Add a new hotel
+-	POST /app/hotels/ : Add a new hotel
 -	Required fields: ‘name’, ‘location’, ‘price_per_night’, ‘availability’
 
 •	Example
