@@ -38,14 +38,14 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     #Cusstom apps
-    "hotels",
+    "hotels_api"
 
-    #third party apps
-    "crispy_forms",
-    "import_export",
-    "mathfilters",
-    "ckeditor",
-    "taggit"
+    # #third party apps
+    # "crispy_forms",
+    # "import_export",
+    # "mathfilters",
+    # "ckeditor",
+    # "taggit"
 ]
 
 MIDDLEWARE = [
