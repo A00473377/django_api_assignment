@@ -84,10 +84,18 @@ WSGI_APPLICATION = "hotel_reservation_backend.wsgi.application"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    # "default": {
+    #     "ENGINE": "django.db.backends.sqlite3",
+    #     "NAME": BASE_DIR / "db.sqlite3",
+    # }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'hotel_api',  # Use the name of the schema you created
+        'USER': 'root',
+        'PASSWORD': 'Delpass@44',
+        'HOST': '127.0.0.1',
     }
+        
 }
 
 
